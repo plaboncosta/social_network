@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://plabon:123@socialnetwork-c5vdm.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "myjsonwebtokensecret",
+  "githubClientId": "d8d4b23e1ff34dc71724",
+  "githubClientSecret": "8ae0039430fdddf138b5ebeda3f844bf086a0af9"
+}

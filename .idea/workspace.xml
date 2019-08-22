@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e068726-f4b5-499b-8031-0d501edcc109" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/client" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1PbZJZc7VXuB7KaQbROKbvpGpHn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/Component/profile-form" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\js developer\social_network\client\src\Component\profile-form" />
+      <recent name="F:\js developer\social_network\client\src\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\js developer\social_network\client\src\Component" />
+      <recent name="F:\js developer\social_network\client\src\Component\profile" />
+      <recent name="F:\js developer\social_network" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e068726-f4b5-499b-8031-0d501edcc109" name="Default Changelist" comment="" />
+      <created>1565365886474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565365886474</updated>
+      <workItem from="1565365888651" duration="8936000" />
+      <workItem from="1565417421398" duration="4949000" />
+      <workItem from="1565426696481" duration="1456000" />
+      <workItem from="1565450759616" duration="11783000" />
+      <workItem from="1565495788778" duration="25297000" />
+      <workItem from="1565585642202" duration="1896000" />
+      <workItem from="1565615717413" duration="3363000" />
+      <workItem from="1565620911345" duration="6850000" />
+      <workItem from="1565671016135" duration="12441000" />
+      <workItem from="1565696323268" duration="8979000" />
+      <workItem from="1565760012668" duration="19123000" />
+      <workItem from="1565845926895" duration="29009000" />
+      <workItem from="1565953805080" duration="18653000" />
+      <workItem from="1566019796600" duration="9532000" />
+      <workItem from="1566051208261" duration="2323000" />
+      <workItem from="1566057594247" duration="8977000" />
+      <workItem from="1566143355901" duration="1227000" />
+      <workItem from="1566144688871" duration="17772000" />
+      <workItem from="1566227439014" duration="17415000" />
+      <workItem from="1566409564219" duration="8987000" />
+      <workItem from="1566496009747" duration="75000" />
+      <workItem from="1566496160036" duration="104000" />
+      <workItem from="1566496285818" duration="8837000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
