@@ -45,7 +45,7 @@ router.post('/', [auth,
         console.error(err.message);
         return res.status(500).json({msg: 'Server Error!'});
     }
-})
+});
 
 
 // @route GET api/post

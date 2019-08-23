@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e068726-f4b5-499b-8031-0d501edcc109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/Component/posts/PostAdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Component/posts/Post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Component/posts/PostItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Component/posts/PostItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Component/posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Component/posts/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Component/profiles/ProfileItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Component/profiles/ProfileItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Component/profile/ProfileGithub.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Component/profile/ProfileGithub.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/reducers/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/profile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +117,8 @@
       <workItem from="1566496009747" duration="75000" />
       <workItem from="1566496160036" duration="104000" />
       <workItem from="1566496285818" duration="9176000" />
-      <workItem from="1566561056121" duration="6275000" />
+      <workItem from="1566561056121" duration="6491000" />
+      <workItem from="1566575804569" duration="6063000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-import {GET_POSTS, POST_ERROR, UPDATE_LIKES, POST_DELETE, ADD_POST} from "./types";
+import {GET_POSTS, POST_ERROR, UPDATE_LIKES, POST_DELETE, ADD_POST, GET_POST} from "./types";
 import axios from 'axios';
 import {setAlert} from "./alert";
 
@@ -72,6 +72,26 @@ export const addPost = formData => async dispatch => {
         });
 
         dispatch(setAlert('Post Added Successfully!', 'success'));
+    } catch (err) {
+        dispatch({
+            type: POST_ERROR,
+            payload: {msg: err.response.statusText, status: err.response.status}
+        });
+    }
+};
+
+
+// Get Post
+export const getPost = id => async dispatch => {
+    localStorage.removeItem('post_id');
+    localStorage.setItem('post_id', id);
+    try {
+        const res = await axios.get(`api/post/${id}`);
+
+        dispatch({
+            type: GET_POST,
+            payload: res.data
+        });
     } catch (err) {
         dispatch({
             type: POST_ERROR,
