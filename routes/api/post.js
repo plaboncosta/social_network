@@ -37,7 +37,7 @@ router.post('/', [auth,
         };
 
         // Create
-        post = await new Post(postFields);
+        const post = await new Post(postFields);
         await post.save();
 
         return res.json(post);

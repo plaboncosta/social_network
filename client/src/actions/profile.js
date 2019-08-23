@@ -193,9 +193,9 @@ export const getProfiles = () => async dispatch => {
 // Get Profile By ID
 export const getProfileById = (id) => async dispatch => {
     localStorage.removeItem('profile_id');
+    localStorage.setItem('profile_id', id);
     try {
         const res = await axios.get(`api/profile/${id}`);
-        localStorage.setItem('profile_id', res.data._id);
 
         dispatch({
             type: GET_PROFILE,

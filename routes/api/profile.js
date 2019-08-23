@@ -130,11 +130,12 @@ router.post('/', [auth,
 // @access Private
 router.get('/:id', async (req, res) => {
     try {
-        const profile = await Profile.findById(req.params.id).populate('user', ['name', 'avatar']);
+        // const profile = await Profile.findById(req.params.id).populate('user', ['name', 'avatar']);
+        const profile = await Profile.findOne({user: req.params.id}).populate('user', ['name', 'avatar']);
 
         if(!profile) return res.status(400).json({msg: 'User Profile Not Found!'});
 
-        res.json(profile);
+        return res.status(200).json(profile);
     } catch (err) {
         console.error(err.message);
         if (err.kind == 'ObjectId') {

@@ -16,7 +16,7 @@ const ProfileItem = ({profile: {user, company, location, status, _id, skills}, g
                 <p>{location && <span>{location}</span>}</p>
                 <button onClick={() => {
                     history.push(`/profile`);
-                    getProfileById(_id)
+                    getProfileById(user._id)
                 } } className="btn btn-primary">View Profile</button>
             </div>
             <ul>

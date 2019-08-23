@@ -8,6 +8,7 @@ import propTypes from 'prop-types';
 
 // Component
 import PostItem from "./PostItem";
+import PostAdd from "./PostAdd";
 
 const Posts = ({getAllPosts, post: {posts, loading}}) => {
     useEffect(() => {
@@ -19,21 +20,7 @@ const Posts = ({getAllPosts, post: {posts, loading}}) => {
             Posts
         </h1>
         <p className="lead"><i className="fas fa-user"> </i> Welcome to the community!</p>
-
-        <div className="post-form">
-            <div className="bg-primary p">
-                <h3>Say Something...</h3>
-            </div>
-            <form className="form my-1">
-                  <textarea
-                      name="text"
-                      cols="30"
-                      rows="5"
-                      placeholder="Create a post"
-                  />
-                <input type="submit" className="btn btn-dark my-3" value="Submit"/>
-            </form>
-        </div>
+        <PostAdd/>
         <div className="posts">
             {posts.length > 0 && <Fragment>
                 {posts.map(post => (
