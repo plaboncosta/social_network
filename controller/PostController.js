@@ -48,7 +48,7 @@ exports.unLike = async (req, res) => {
         post.likes.splice(removeIndex, 1);
         await post.save();
 
-        res.json(post);
+        return res.status(200).json(post);
     } catch (err) {
         console.error(err.message);
         if (err.kind === 'ObjectId') {
@@ -85,10 +85,10 @@ exports.commentCreate = async (req, res) => {
         post.comments.unshift(commentFields);
         await post.save();
 
-        return res.json(post);
+        return res.status(200).json(post);
     } catch (err) {
         console.error(err.message);
-        if (err.kind == 'ObjectId') {
+        if (err.kind === 'ObjectId') {
             return res.status(400).json({msg: 'Post did not found!'});
         }
         return res.status(500).json({msg: 'Server Error!'});
@@ -103,22 +103,22 @@ exports.commentDelete = async (req, res) => {
 
         // Pull out Comment
         const comment = post.comments.find(comment => comment.id === req.params.comment_id);
-        if(!comment) return res.json({msg: 'Comment did not found!'});
+        if(!comment) return res.status(400).json({msg: 'Comment did not found!'});
 
         // Authorize User
         if(comment.user.toString() !== res.user.id) {
-            return res.json({msg: 'User is not authorized!'});
+            return res.status(400).json({msg: 'User is not authorized!'});
         }
 
-        removeIndex = post.comments.map(comment => comment.id).indexOf(req.params.comment_id);
+        const removeIndex = post.comments.map(comment => comment.id).indexOf(req.params.comment_id);
 
         post.comments.splice(removeIndex, 1);
         await post.save();
 
-        return res.json({msg: 'Comment Deleted SuccessFully'});
+        return res.status(200).json({msg: 'Comment Deleted SuccessFully'});
     } catch (err) {
         console.error(err.message);
-        if (err.kind == 'ObjectId') {
+        if (err.kind === 'ObjectId') {
             return res.status(400).json({msg: 'Post did not found!'});
         }
         return res.status(500).json({msg: 'Server Error!'});
